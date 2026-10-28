@@ -1,0 +1,33 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+hs_err_pid*
+replay_pid*
+
+# Maven build output
+**/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node.js, if a frontend is added later
+node_modules/
+**/dist/
+**/build/
