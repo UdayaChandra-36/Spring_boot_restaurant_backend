@@ -2,7 +2,7 @@ FROM eclipse-temurin:25-jdk AS build
 
 WORKDIR /app
 
-COPY . .
+COPY restaurantservice/ .
 
 RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 
